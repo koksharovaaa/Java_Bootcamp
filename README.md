@@ -1,2 +1,27 @@
-# Java_Bootcamp
-Completed Java bootcamp from School 21 cource. The first task is about learning the basics of the language. The second task is about learning the object oriented and functional programming paradigms. The third task is implementing a terminal based game inspired by 1980's Rogue. The fourth task is developing a simple web application using Spring.
+# Java Bootcamp
+
+Проект для изучения основ прикладного программирования на языке Java:
+- Знакомство с основными функциями языка (Task 1).
+- Разбор объектно-ориентированного программирования (Task 2).
+- Разработка консольного игрового «rogue-like» приложения (Task 3).
+- Разработка веб-приложения с использованием Spring Boot для игры в крестики-нолики (Task 4).
+
+## Task 1: Basics
+Набор консольных утилит для работы с числами, массивами, строками и файлами. Реализованы алгоритмы сортировки, поиска чисел Фибоначчи, обработка ввода/вывода, работа с файлами, базовые структуры данных и Stream API.
+
+Стек: Java 18, Gradle.
+
+## Task 2: Advanced basics
+Освоение ООП, интерфейсов, наследования, функциональной парадигмы и многопоточности на примере консольного приложения для учёта питомцев. Реализованы иерархия классов Animal-Dog-Cat-Hamster, интерфейсы Herbivore/Omnivore, итератор, Stream API, асинхронные прогулки через TimeUnit и потоки.
+
+Стек: Java 18, Gradle. Был использован JUnit для тестирования.
+
+## Task 3: Roguelike
+Консольная roguelike-игра на Java с генерацией подземелий, пошаговым боем, туманом войны, сохранением прогресса и статистикой. Разрабатывала самостоятельно доменный слой: игровые сущности, логику боя, генерацию уровней с поиском в глубину, систему предметов и врагов, область видимости с использованием алгоритма брезенхема. Многослойная архитектура: domain, presentation, datalayer.
+
+Стек: Java 21, Google Lanterna, JSON. Тестирование проводилось вручную
+
+## Task 4: Tictactoe
+Веб-приложение на Java: REST API для игры крестики-нолики с компьютером, который использует алгоритм Минимакс. Многослойная архитектура: web, domain, datasource, di. Spring Boot. Реализован эндпоинт с ходом игрока и ответом компьютера, поддержка нескольких игр, валидация полей.
+
+Стек: Java 21, JSON. Тестирование проводилось с помощью Postman
